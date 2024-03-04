@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<!-- saved from url=(0088)https://canvas.uw.edu/courses/1702099/pages/lesson-04a-codealong?module_item_id=19805858 -->
+<html dir="ltr" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4b2e83">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="apple-itunes-app" content="app-id=480883488">
+<link rel="manifest" href="https://canvas.uw.edu/web-app-manifest/manifest.json">
+  <meta name="sentry-trace" content="c576768354044eab8fb358d1d2e56286-607492f390db454b-0">
+  <title>Lesson 04a Codealong: HTML 110 GP Wi 24: HTML And CSS Foundations</title>
+
+  <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/extended/Lato-Regular-bd03a2cc27.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/extended/Lato-Bold-cccb897485.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/extended/Lato-Italic-4eb103b4d1.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="stylesheet" href="./Lesson 04a Codealong_ HTML 110 GP Wi 24_ HTML And CSS Foundations_files/fonts-6ee09b0b2f.css" media="screen">
+  <link rel="stylesheet" href="./Lesson 04a Codealong_ HTML 110 GP Wi 24_ HTML And CSS Foundations_files/variables-7dd4b80918af0e0218ec0229e4bd5873.css" media="all">
+  <link rel="stylesheet" href="./Lesson 04a Codealong_ HTML 110 GP Wi 24_ HTML And CSS Foundations_files/common-23a0863eed.css" media="all">
+  <link rel="stylesheet" href="./Lesson 04a Codealong_ HTML 110 GP Wi 24_ HTML And CSS Foundations_files/wiki_page-bb0c0c1f96.css" media="screen">
+  <link rel="apple-touch-icon" href="https://instructure-uploads.s3.amazonaws.com/account_100000000083919/attachments/37312005/Canvas-MobileHome.png?AWSAccessKeyId=AKIAJFNFXH2V2O7RPCAA&amp;Expires=1939374366&amp;Signature=jwVDIJvM6uIaOoE%2FSW94uwVcHU0%3D&amp;response-cache-control=Cache-Control%3Amax-age%3D473364000.0%2C%20public&amp;response-expires=473364000.0">
+  <link rel="icon" type="image/x-icon" href="https://instructure-uploads.s3.amazonaws.com/account_100000000083919/attachments/37312004/favicon.ico?AWSAccessKeyId=AKIAJFNFXH2V2O7RPCAA&amp;Expires=1939374366&amp;Signature=lNl7iuCda9spDgRONbwVvr490LM%3D&amp;response-cache-control=Cache-Control%3Amax-age%3D473364000.0%2C%20public&amp;response-expires=473364000.0">
+
+  <link rel="stylesheet" href="./Lesson 04a Codealong_ HTML 110 GP Wi 24_ HTML And CSS Foundations_files/custom.css" media="all">
+<link rel="stylesheet" href="./Lesson 04a Codealong_ HTML 110 GP Wi 24_ HTML And CSS Foundations_files/custom(1).css" media="all">
+  
+  <script type="text/javascript" async="" src="./Lesson 04a Codealong_ HTML 110 GP Wi 24_ HTML And CSS Foundations_files/heap-3001039959.js"></script><script>if (navigator.userAgent.match(/(MSIE|Trident\/)/)) location.replace('/ie-is-not-supported.html')</script>
+  <script>
+    INST = {"environment":"production","allowMediaComments":true,"kalturaSettings":{"domain":"nv.instructuremedia.com","resource_domain":"nv.instructuremedia.com","rtmp_domain":"iad.rtmp.instructuremedia.com","partner_id":"9","subpartner_id":"0","player_ui_conf":"0","kcw_ui_conf":"0","upload_ui_conf":"0","max_file_size_bytes":534773760,"do_analytics":false,"hide_rte_button":false,"js_uploader":true},"logPageViews":true,"editorButtons":[{"name":"Panopto Recordings","id":21130,"favorite":true,"url":"https://uw.hosted.panopto.com/Panopto/LTI/LTI.aspx","icon_url":"https://uw.hosted.panopto.com/Panopto/images/panopto_logo_globe.png","canvas_icon_class":null,"width":900,"height":700,"use_tray":false,"always_on":false,"description":"\u003cp\u003eAccess Panopto recordings from Canvas\u003c/p\u003e\n"},{"name":"Commons Favorites","id":47186,"favorite":false,"url":"https://lor.instructure.com/api/lti/favorite-resources","icon_url":"https://lor.instructure.com/img/icon_commons.png","canvas_icon_class":null,"width":800,"height":400,"use_tray":true,"always_on":false,"description":"\u003cp\u003eFind and share course content\u003c/p\u003e\n"},{"name":"","id":71123,"favorite":false,"url":"https://office365-iad-prod.instructure.com/lti/rce-content-item","icon_url":"https://office365-iad-prod.instructure.com/images/office365_icon.png","canvas_icon_class":null,"width":900,"height":600,"use_tray":false,"always_on":false,"description":"\u003cp\u003eAllows you to pull documents from Office 365 into Canvas\u003c/p\u003e\n"},{"name":"Gale Virtual Reference Library","id":73253,"favorite":false,"url":"https://link.galegroup.com/apps/launch","icon_url":"https://link.galegroup.com/apps/resources/images/gale-logo.jpg","canvas_icon_class":null,"width":1000,"height":600,"use_tray":false,"always_on":false,"description":"\u003cp\u003eGVRL App by Gale\u003c/p\u003e\n"},{"name":"Insert a Wiley Resource","id":111200,"favorite":false,"url":"https://lti.education.wiley.com/wpng/api/v1/lti/resourcediscoverytool","icon_url":"https://education.wiley.com/assets/images/wp.svg","canvas_icon_class":null,"width":1160,"height":660,"use_tray":false,"always_on":false,"description":"\u003cp\u003eOutcomes-based learning.\u003c/p\u003e\n"},{"name":"myBusinessCourse Resource Selection","id":137968,"favorite":false,"url":"https://mybusinesscourse.com/platform/local/integrations/lti.php","icon_url":"https://mybusinesscourse.com/ublish/client/cpb/images/link_logo.png","canvas_icon_class":null,"width":800,"height":400,"use_tray":false,"always_on":false,"description":"\u003cp\u003emyBusinessCourse LTI 1.3\u003c/p\u003e\n"},{"name":"Chicago Business Press Resource Selection","id":139388,"favorite":false,"url":"https://chicagobusinesspress.com/platform/local/integrations/lti.php","icon_url":"https://chicagobusinesspress.com/ublish/client/chipress/images/link_logo.png","canvas_icon_class":null,"width":800,"height":400,"use_tray":false,"always_on":false,"description":"\u003cp\u003eChicago Business Press LTI 1.3\u003c/p\u003e\n"},{"name":"LinkedIn Learning","id":154305,"favorite":false,"url":"https://www.linkedin.com/checkpoint/enterprise/lti/67682169/auth/75996849/6957429039590502400","icon_url":"https://static-exp1.licdn.com/sc/h/3dio89ba7ceqktt0kek3tla5w","canvas_icon_class":null,"width":1000,"height":800,"use_tray":false,"always_on":false,"description":"\u003cp\u003eLearningIn Learning LTI 1.3\u003c/p\u003e\n"},{"name":"Embed Kaltura Media","id":157634,"favorite":true,"url":"","icon_url":"https://cdnsecakmi.kaltura.com/content/static/kalturalogo.png","canvas_icon_class":null,"width":800,"height":400,"use_tray":false,"always_on":false,"description":"\u003cp\u003eUniversity of Washington Continuum\u003c/p\u003e\n"},{"name":"Pearson Links","id":173591,"favorite":false,"url":"https://interop.pearson.com/launch","icon_url":"https://www.pearson.com/us/content/dam/one-dot-com/one-dot-com/us/en/images/PearsonThumbprint-RGB-127x138.png/_jcr_content/renditions/cq5dam.web.1600.9600.png","canvas_icon_class":null,"width":800,"height":400,"use_tray":false,"always_on":false,"description":"\u003cp\u003eAccess Pearson\u003c/p\u003e\n"},{"name":"Vimeo","id":187684,"favorite":false,"url":"https://www.edu-apps.org/lti_public_resources/?tool_id=vimeo","icon_url":"https://www.edu-apps.org/assets/lti_public_resources/vimeo_icon.png","canvas_icon_class":null,"width":560,"height":600,"use_tray":false,"always_on":false,"description":"\u003cp\u003eVimeo is a video sharing website on which users can upload, share, and view videos. The community of Vimeo includes indie, professional, and novice filmmakers.\u003c/p\u003e\n"},{"name":"YouTube","id":187685,"favorite":false,"url":"https://www.edu-apps.org/lti_public_resources/?tool_id=youtube","icon_url":"https://www.edu-apps.org/assets/lti_public_resources/youtube_icon.png","canvas_icon_class":null,"width":560,"height":600,"use_tray":false,"always_on":false,"description":"\u003cp\u003eSearch publicly available YouTube videos. A new icon will show up in your course rich editor letting you search YouTube and click to embed videos in your course material.\u003c/p\u003e\n"}]};
+    ENV = {"ASSET_HOST":"https://du11hjcvx0uqb.cloudfront.net","active_brand_config_json_url":"https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/cc4f8a0f14ce5c278f73c82f11da1f7e/variables-7dd4b80918af0e0218ec0229e4bd5873.json","active_brand_config":{"md5":"cc4f8a0f14ce5c278f73c82f11da1f7e","variables":{},"share":false,"name":null,"created_at":"2024-01-26T16:35:19-08:00","js_overrides":"https://instructure-uploads.s3.amazonaws.com/account_100000000083919/attachments/79098377/custom.js","css_overrides":"https://instructure-uploads.s3.amazonaws.com/account_100000000083919/attachments/114055898/custom.css","parent_md5":"e4755a8d5c442bcee6e9f6b27e48162c","mobile_js_overrides":"","mobile_css_overrides":"https://instructure-uploads.s3.amazonaws.com/account_100000000083919/attachments/114055899/mobile.css"},"confetti_branding_enabled":false,"url_to_what_gets_loaded_inside_the_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/cc4f8a0f14ce5c278f73c82f11da1f7e/variables-7dd4b80918af0e0218ec0229e4bd5873.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/new_styles_normal_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-a64c7fe33c.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/no_variables/bundles/fonts-6ee09b0b2f.css"],"url_for_high_contrast_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/default/variables-high_contrast-7dd4b80918af0e0218ec0229e4bd5873.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/new_styles_high_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-fa0672d544.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/no_variables/bundles/fonts-6ee09b0b2f.css"],"current_user_id":"3801566","current_user_global_id":"100000003801566","current_user_heap_id":"uu-2-43bd47a52c82575822785d292a8d1a898fdfa38b7d42bed59eab673e87f5aad2-hMdW75SAnZRIzmj4yn9Zl1cW9eAMfEUMSztnrw0F","current_user_roles":["user","student"],"current_user_is_student":true,"current_user_types":[],"current_user_disabled_inbox":false,"current_user_visited_tabs":null,"discussions_reporting":false,"files_domain":"cluster10.canvas-user-content.com","group_information":null,"DOMAIN_ROOT_ACCOUNT_ID":"100000000083919","DOMAIN_ROOT_ACCOUNT_UUID":"hMdW75SAnZRIzmj4yn9Zl1cW9eAMfEUMSztnrw0F","k12":false,"help_link_name":"Help","help_link_icon":"help","use_high_contrast":false,"auto_show_cc":false,"disable_celebrations":false,"disable_keyboard_shortcuts":false,"LTI_LAUNCH_FRAME_ALLOWANCES":["geolocation *","microphone *","camera *","midi *","encrypted-media *","autoplay *","clipboard-write *","display-capture *"],"DEEP_LINKING_POST_MESSAGE_ORIGIN":"https://canvas.uw.edu","comment_library_suggestions_enabled":false,"SETTINGS":{"open_registration":false,"collapse_global_nav":false,"release_notes_badge_disabled":false},"RAILS_ENVIRONMENT":"Production","IN_PACED_COURSE":false,"SENTRY_FRONTEND":{"dsn":"https://355a1d96717e4038ac25aa852fa79a8f@relay-iad.sentry.insops.net/388","org_slug":"instructure","base_url":"https://sentry.insops.net","normalized_route":"/courses/{course_id}/pages/{id}","errors_sample_rate":"0.0005","traces_sample_rate":"0.0005","url_deny_pattern":"instructure-uploads.*amazonaws.com","revision":"canvas-lms@20240228.235"},"DATA_COLLECTION_ENDPOINT":"https://canvas-frontend-data-iad-prod.inscloudgate.net/submit","DOMAIN_ROOT_ACCOUNT_SFID":"001A000000YzgTSIAZ","DIRECT_SHARE_ENABLED":false,"CAN_VIEW_CONTENT_SHARES":false,"FEATURES":{"featured_help_links":true,"account_level_blackout_dates":false,"deleted_user_tools":true,"render_both_to_do_lists":false,"course_paces_redesign":true,"course_paces_for_students":true,"explicit_latex_typesetting":false,"media_links_use_attachment_id":true,"permanent_page_links":true,"differentiated_modules":false,"enhanced_course_creation_account_fetching":false,"instui_for_import_page":false,"enhanced_rubrics":false,"multiselect_gradebook_filters":false,"product_tours":false,"usage_rights_discussion_topics":true,"granular_permissions_manage_users":true,"create_course_subaccount_picker":true,"lti_deep_linking_module_index_menu_modal":true,"lti_dynamic_registration":false,"lti_multiple_assignment_deep_linking":true,"lti_overwrite_user_url_input_select_content_dialog":true,"lti_unique_tool_form_ids":true,"buttons_and_icons_root_account":true,"extended_submission_state":false,"scheduled_page_publication":true,"send_usage_metrics":true,"rce_transform_loaded_content":false,"lti_assignment_page_line_items":true,"mobile_offline_mode":false,"react_discussions_post":false,"instui_nav":false,"enhanced_developer_keys_tables":false,"embedded_release_notes":true,"canvas_k6_theme":false,"new_math_equation_handling":true},"current_user":{"id":"3801566","anonymous_id":"29hb2","display_name":"Bekka Coakley","avatar_image_url":"https://canvas.uw.edu/images/messages/avatar-50.png","html_url":"https://canvas.uw.edu/about/3801566","pronouns":null,"avatar_is_fallback":true},"current_user_is_admin":false,"page_view_update_url":"/page_views/7526c1ab-0fad-457f-b83d-96f899adde5a?page_view_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpIjoiNzUyNmMxYWItMGZhZC00NTdmLWI4M2QtOTZmODk5YWRkZTVhIiwidSI6MTAwMDAwMDAzODAxNTY2LCJjIjoiMjAyNC0wMy0wM1QyMjoyMToyNy44M1oifQ.JsbT3UwEKKRSA_E4J4d5vyUPbFNxUb5NApbi1IqcGVU","context_asset_string":"course_1702099","ping_url":"https://canvas.uw.edu/api/v1/courses/1702099/ping","TIMEZONE":"America/Los_Angeles","CONTEXT_TIMEZONE":"America/Los_Angeles","LOCALES":["en"],"BIGEASY_LOCALE":"en_US","FULLCALENDAR_LOCALE":"en","MOMENT_LOCALE":"en","rce_auto_save_max_age_ms":86400000,"K5_USER":false,"USE_CLASSIC_FONT":false,"K5_HOMEROOM_COURSE":false,"K5_SUBJECT_COURSE":false,"LOCALE_TRANSLATION_FILE":"/dist/javascripts/translations/en-12343ce012.json","ACCOUNT_ID":"103309","user_cache_key":"SzdueEtLSHR0TGRsTUhvM3ZLUjJXYzBhdzlUTHR1RkZ6QWs5NE5pSnZ5Zlc9\nO1twLTA/OntQXz1IVXBncmFxZTtuamFsa2hwdm9pdWxraW1tYXFld2c=\n","WIKI_RIGHTS":{"read":true},"PAGE_RIGHTS":{"read":true},"DEFAULT_EDITING_ROLES":"teachers","WIKI_PAGES_PATH":"/courses/1702099/pages","WIKI_PAGE":{"title":"Lesson 04a Codealong","created_at":"2023-12-18T11:46:37-08:00","url":"lesson-04a-codealong","editing_roles":"teachers","page_id":"7254904","last_edited_by":{"id":"4290731","anonymous_id":"2jyqz","display_name":"Elizabeth Camilletti","avatar_image_url":"https://canvas.uw.edu/images/messages/avatar-50.png","html_url":"https://canvas.uw.edu/courses/1702099/users/4290731","pronouns":null},"published":true,"hide_from_students":false,"front_page":false,"html_url":"https://canvas.uw.edu/courses/1702099/pages/lesson-04a-codealong","todo_date":null,"publish_at":null,"updated_at":"2023-12-18T12:15:01-08:00","locked_for_user":false,"body":"\u003ch2 class=\"caH2\"\u003eVideo: CSS Box Model\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eDownload and save this\u0026nbsp;\u003ca href=\"https://github.com/UWFront-End-Cert/starters/blob/master/lesson04-box-model.html\" target=\"_blank\"\u003ebox model starter code\u003c/a\u003e.\u003c/li\u003e\n\u003cli\u003eReview the \u003cstrong\u003eone \u003c/strong\u003evideo below and code along with the exercises.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp style=\"padding-left: 40px;\"\u003e\u003ciframe style=\"width: 853px; height: 480px;\" title=\"HTML 110_04_01.01 Box Model\" src=\"https://canvas.uw.edu/courses/1702099/external_tools/retrieve?display=in_rce\u0026amp;resource_link_lookup_uuid=d69eaf50-8866-420b-b7bc-3fab5177c1f5\" allowfullscreen=\"allowfullscreen\" allow=\"geolocation *; microphone *; camera *; midi *; encrypted-media *; autoplay *; clipboard-write *; display-capture *\"\u003e\u003c/iframe\u003e\u003c/p\u003e\n\u003chr\u003e\n\u003ch2 class=\"caH2\"\u003eVideo: CSS Positioning\u003c/h2\u003e\n\u003cdiv class=\"bigBox\"\u003e\n\u003cp\u003eIn this video, you can use the code you rendered at the end of lesson 3, or this\u0026nbsp;\u003ca href=\"https://gist.github.com/scalesuw/25106de752dc556fffe8ac822d17e2d6\" target=\"_blank\"\u003elesson04-2 starter html code\u003c/a\u003e and \u003ca href=\"https://gist.github.com/scalesuw/4add85c00464aa7804e22058a9a16e8c\" target=\"_blank\"\u003eCSS stylesheet\u003c/a\u003e.\u003c/p\u003e\n\u003c/div\u003e\n\u003cp style=\"padding-left: 40px;\"\u003e\u003ciframe style=\"width: 853px; height: 480px;\" title=\"HTML 110_04_02 CSS Positioning\" src=\"https://canvas.uw.edu/courses/1702099/external_tools/retrieve?display=in_rce\u0026amp;resource_link_lookup_uuid=e06b7949-455e-431d-8b15-2bf8b35c8ffc\" allowfullscreen=\"allowfullscreen\" allow=\"geolocation *; microphone *; camera *; midi *; encrypted-media *; autoplay *; clipboard-write *; display-capture *\"\u003e\u003c/iframe\u003e\u003c/p\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e"},"WIKI_PAGE_REVISION":"2","WIKI_PAGE_SHOW_PATH":"/courses/1702099/pages/lesson-04a-codealong","WIKI_PAGE_EDIT_PATH":"/courses/1702099/pages/lesson-04a-codealong/edit","WIKI_PAGE_HISTORY_PATH":"/courses/1702099/pages/lesson-04a-codealong/revisions","COURSE_ID":"1702099","MODULES_PATH":"/courses/1702099/modules","wiki_page_menu_tools":[],"wiki_index_menu_tools":[],"DISPLAY_SHOW_ALL_LINK":false,"CAN_SET_TODO_DATE":false,"BLOCK_EDITOR":false,"TITLE_AVAILABILITY_PATH":"/api/v1/courses/1702099/page_title_availability","badge_counts":{"submissions":6},"notices":[],"active_context_tab":"pages"};
+    BRANDABLE_CSS_HANDLEBARS_INDEX = [["new_styles_normal_contrast","new_styles_high_contrast","new_styles_normal_contrast_rtl","new_styles_high_contrast_rtl"],{"10":["8300658022",0,"250b5824c2",2],"15":["fc26aa5fd4",0,"f904416063",2],"19":["df5777ed9c"],"61":["f3934dab06","f405852bb2","ee5810890b","3fd9943b9a"],"67":["8b57f54e71",0,"43833dde85",2],"71":["35b89b103a","4304be7d41","58dbfc2651","2932678b1c"],"06":["cb9f63cba6",0,"2be010fc14",2],"f0":["7c947dce20",0,0,0],"c8":["12d5e4d1e8","9f7b02d283","4ebd280f3e","b547456f4c"],"1e":["02e336724a","d7bb142b0a","d7ac7fdfb8","c03b9b261e"],"b3":["8ebc71ebc3","cf8efa05c8","4efdc93a21","fd6d3a9780"],"0c":["c26e82abac",0,"b71e9cbd6d",2],"da":["efb9fe6d7c","edbd1b5e83","a6dc56afb7","dfb2d13098"],"1d":["a3bfcb7961",0,"90682b3bbe",2],"08":["64bff5a97d"],"e2":["11429f119a"],"9f":["35936a18c3",0,0,0],"2b":["abf63f48ef","bf8e135ffe","378e0c136b","9833e305e6"],"2c":["6d919206cd",0,0,0],"c2":["6f2721ae01"],"9c":["ecafc938e4",0,"59e7c22304",2],"c5":["ebf0e1382f","7f587d9a8a","afbdabf23d","0d398196a8"],"f2":["51574f9b13"]}]
+  </script>
+  <script src="./Lesson 04a Codealong_ HTML 110 GP Wi 24_ HTML And CSS Foundations_files/variables-7dd4b80918af0e0218ec0229e4bd5873.js" defer="defer"></script>
+  <script src="./Lesson 04a Codealong_ HTML 110 GP Wi 24_ HTML And CSS Foundations_files/Los_Angeles-6699c54112.js" defer="defer"></script>
+  <script src="./Lesson 04a Codealong_ HTML 110 GP Wi 24_ HTML And CSS Foundations_files/Los_Angeles-6699c54112.js" defer="defer"></script>
+  <script src="./Lesson 04a Codealong_ HTML 110 GP Wi 24_ HTML And CSS Foundations_files/en_US-80a0ce259b.js" defer="defer"></script>
+  <script src="./Lesson 04a Codealong_ HTML 110 GP Wi 24_ HTML And CSS Foundations_files/react-entry-0b1e31aa81d595c6.js" crossorigin="anonymous" defer="defer"></script>
+  <script src="./Lesson 04a Codealong_ HTML 110 GP Wi 24_ HTML And CSS Foundations_files/main-entry-1c34f7bb13b8ecb2.js" crossorigin="anonymous" defer="defer"></script>
+<script>
+//<![CDATA[
+(window.bundles || (window.bundles = [])).push('wiki_page_show');
+(window.bundles || (window.bundles = [])).push('navigation_header');
+//]]>
+</script>
+  
+  <script type="text/javascript">
+    window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
+    heap.load("3001039959");
+    heap.clearEventProperties();
+    heap.addEventProperties({'Base.appName': 'Canvas'});
+    setTimeout(() => {
+      if (ENV.current_user_heap_id && ENV.current_user_heap_id !== heap.identity) {
+        heap.identify(ENV.current_user_heap_id);
+      }
+      props = {}
+      if (ENV.current_user_roles) {
+        props['role'] = ENV.current_user_roles[ENV.current_user_roles.length - 1]
+      }
+      if (ENV.DOMAIN_ROOT_ACCOUNT_UUID) {
+        props['Canvas.accountId'] = ENV.DOMAIN_ROOT_ACCOUNT_UUID
+      }
+      if (ENV.DOMAIN_ROOT_ACCOUNT_SFID) {
+        props['Canvas.salesforceAccountId'] = ENV.DOMAIN_ROOT_ACCOUNT_SFID
+      }
+      if (Object.keys(props).length > 0) {
+        heap.addUserProperties(props);
+      }
+    }, 1000);
+  </script>
+  
+<style type="text/css"></style><link data-webpack="webpack:chunk-81253" rel="stylesheet" href="./Lesson 04a Codealong_ HTML 110 GP Wi 24_ HTML And CSS Foundations_files/81253-chunk-89af543101786c33.css"><link rel="stylesheet" type="text/css" href="./Lesson 04a Codealong_ HTML 110 GP Wi 24_ HTML And CSS Foundations_files/canvas.8617bdb9cecd515278bfe72fc951f587.css"></head>
+<body class="with-left-side course-menu-expanded padless-content pages primary-nav-expanded context-course_1702099 responsive_student_grades_page show webkit chrome no-touch ally-tooltips-enabled">
+
+<noscript>
+  <div role="alert" class="ic-flash-static ic-flash-error">
+    <div class="ic-flash__icon" aria-hidden="true">
+      <i class="icon-warning"></i>
+    </div>
+    <h1>You need to have JavaScript enabled in order to access this site.</h1>
+  </div>
+</noscript>
+
+
+
+
+<div id="flash_message_holder"></div>
+<div id="flash_screenreader_holder" role="alert" aria-live="assertive" aria-relevant="additions" class="screenreader-only" aria-atomic="true"></div>
+
+<div id="application" class="ic-app">
+  
+
+
+
+<header id="mobile-header" class="no-print">
+  <button type="button" class="Button Button--icon-action-rev Button--large mobile-header-hamburger">
+    <i class="icon-solid icon-hamburger"></i>
+    <span id="mobileHeaderInboxUnreadBadge" class="menu-item__badge" style="min-width: 0; top: 12px; height: 12px; right: 6px; display:none;"></span>
+    <span class="screenreader-only">Dashboard</span>
+  </button>
+  <div class="mobile-header-space"></div>
+    <a class="mobile-header-title expandable" href="https://canvas.uw.edu/courses/1702099" role="button" aria-controls="mobileContextNavContainer">
+      <div>HTML 110 GP</div>
+        <div>Lesson 04a Codealong</div>
+    </a>
+    <div class="mobile-header-space"></div>
+    <button type="button" class="Button Button--icon-action-rev Button--large mobile-header-arrow" aria-label="Navigation Menu">
+      <i class="icon-arrow-open-down" id="mobileHeaderArrowIcon"></i>
+    </button>
+</header>
+<nav id="mobileContextNavContainer" aria-expanded="false"></nav>
+
+<header id="header" class="ic-app-header no-print ">
+  <a href="https://canvas.uw.edu/courses/1702099/pages/lesson-04a-codealong?module_item_id=19805858#content" id="skip_navigation_link">Skip To Content</a>
+  <div role="region" class="ic-app-header__main-navigation" aria-label="Global Navigation">
+      <div class="ic-app-header__logomark-container">
+        <a href="https://canvas.uw.edu/" class="ic-app-header__logomark">
+          <span class="screenreader-only">Dashboard</span>
+        </a>
+      </div>
+    <ul id="menu" class="ic-app-header__menu-list">
+        <li class="menu-item ic-app-header__menu-list-item ">
+          <a id="global_nav_profile_link" role="button" href="https://canvas.uw.edu/profile/settings" class="ic-app-header__menu-list-link">
+            <div class="menu-item-icon-container">
+              <div aria-hidden="true" class="fs-exclude ic-avatar ">
+                <img src="./Lesson 04a Codealong_ HTML 110 GP Wi 24_ HTML And CSS Foundations_files/avatar-50.png" alt="Bekka Coakley">
+              </div>
+              <span class="menu-item__badge"></span>
+            </div>
+            <div class="menu-item__text">
+              Account
+            </div>
+          </a>
+        </li>
+      <li class="ic-app-header__menu-list-item ">
+        <a id="global_nav_dashboard_link" href="https://canvas.uw.edu/" class="ic-app-header__menu-list-link">
+          <div class="menu-item-icon-container" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--dashboard" version="1.1" x="0" y="0" viewBox="0 0 280 200" enable-background="new 0 0 280 200" xml:space="preserve"><path d="M273.09,180.75H197.47V164.47h62.62A122.16,122.16,0,1,0,17.85,142a124,124,0,0,0,2,22.51H90.18v16.29H6.89l-1.5-6.22A138.51,138.51,0,0,1,1.57,142C1.57,65.64,63.67,3.53,140,3.53S278.43,65.64,278.43,142a137.67,137.67,0,0,1-3.84,32.57ZM66.49,87.63,50.24,71.38,61.75,59.86,78,76.12Zm147,0L202,76.12l16.25-16.25,11.51,11.51ZM131.85,53.82v-23h16.29v23Zm15.63,142.3a31.71,31.71,0,0,1-28-16.81c-6.4-12.08-15.73-72.29-17.54-84.25a8.15,8.15,0,0,1,13.58-7.2c8.88,8.21,53.48,49.72,59.88,61.81a31.61,31.61,0,0,1-27.9,46.45ZM121.81,116.2c4.17,24.56,9.23,50.21,12,55.49A15.35,15.35,0,1,0,161,157.3C158.18,152,139.79,133.44,121.81,116.2Z"></path></svg>
+
+          </div>
+          <div class="menu-item__text">
+            Dashboard
+          </div>
+        </a>
+      </li>
+        <li class="menu-item ic-app-header__menu-list-item ic-app-header__menu-list-item--active" aria-current="page">
+          <a id="global_nav_courses_link" role="button" href="https://canvas.uw.edu/courses" class="ic-app-header__menu-list-link">
+            <div class="menu-item-icon-container" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--courses" version="1.1" x="0" y="0" viewBox="0 0 280 259" enable-background="new 0 0 280 259" xml:space="preserve"><path d="M73.31,198c-11.93,0-22.22,8-24,18.73a26.67,26.67,0,0,0-.3,3.63v.3a22,22,0,0,0,5.44,14.65,22.47,22.47,0,0,0,17.22,8H200V228.19h-134V213.08H200V198Zm21-105.74h90.64V62H94.3ZM79.19,107.34V46.92H200v60.42Zm7.55,30.21V122.45H192.49v15.11ZM71.65,16.71A22.72,22.72,0,0,0,49,39.36V190.88a41.12,41.12,0,0,1,24.32-8h157V16.71ZM33.88,39.36A37.78,37.78,0,0,1,71.65,1.6H245.36V198H215.15v45.32h22.66V258.4H71.65a37.85,37.85,0,0,1-37.76-37.76Z"></path></svg>
+
+            </div>
+            <div class="menu-item__text">
+              Courses
+            </div>
+          </a>
+        </li>
+      <li class="menu-item ic-app-header__menu-list-item ">
+        <a id="global_nav_calendar_link" href="https://canvas.uw.edu/calendar" class="ic-app-header__menu-list-link">
+          <div class="menu-item-icon-container" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--calendar" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve"><path d="M197.07,213.38h16.31V197.07H197.07Zm-16.31,16.31V180.76h48.92v48.92Zm-48.92-16.31h16.31V197.07H131.85Zm-16.31,16.31V180.76h48.92v48.92ZM66.62,213.38H82.93V197.07H66.62ZM50.32,229.68V180.76H99.24v48.92Zm146.75-81.53h16.31V131.85H197.07Zm-16.31,16.31V115.54h48.92v48.92Zm-48.92-16.31h16.31V131.85H131.85Zm-16.31,16.31V115.54h48.92v48.92ZM66.62,148.15H82.93V131.85H66.62ZM50.32,164.46V115.54H99.24v48.92ZM34,262.29H246V82.93H34ZM246,66.62V42.16A8.17,8.17,0,0,0,237.84,34H213.38v8.15a8.15,8.15,0,1,1-16.31,0V34H82.93v8.15a8.15,8.15,0,0,1-16.31,0V34H42.16A8.17,8.17,0,0,0,34,42.16V66.62Zm-8.15-48.92a24.49,24.49,0,0,1,24.46,24.46V278.6H17.71V42.16A24.49,24.49,0,0,1,42.16,17.71H66.62V9.55a8.15,8.15,0,0,1,16.31,0v8.15H197.07V9.55a8.15,8.15,0,1,1,16.31,0v8.15Z"></path></svg>
+
+          </div>
+          <div class="menu-item__text">
+            Calendar
+          </div>
+        </a>
+      </li>
+      <li class="menu-item ic-app-header__menu-list-item ">
+      <!-- TODO: Add back global search when available -->
+        <a id="global_nav_conversations_link" href="https://canvas.uw.edu/conversations" class="ic-app-header__menu-list-link">
+          <div class="menu-item-icon-container">
+            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--inbox" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve"><path d="M91.72,120.75h96.56V104.65H91.72Zm0,48.28h80.47V152.94H91.72Zm0-96.56h80.47V56.37H91.72Zm160.94,34.88H228.52V10.78h-177v96.56H27.34A24.17,24.17,0,0,0,3.2,131.48V244.14a24.17,24.17,0,0,0,24.14,24.14H252.66a24.17,24.17,0,0,0,24.14-24.14V131.48A24.17,24.17,0,0,0,252.66,107.34Zm0,16.09a8.06,8.06,0,0,1,8,8v51.77l-32.19,19.31V123.44ZM67.58,203.91v-177H212.42v177ZM27.34,123.44H51.48v79.13L19.29,183.26V131.48A8.06,8.06,0,0,1,27.34,123.44ZM252.66,252.19H27.34a8.06,8.06,0,0,1-8-8V202l30,18H230.75l30-18v42.12A8.06,8.06,0,0,1,252.66,252.19Z"></path></svg>
+</span>
+            <span class="menu-item__badge"></span>
+          </div>
+          <div class="menu-item__text">
+            Inbox
+          </div>
+        </a>
+      </li>
+        <li class="menu-item ic-app-header__menu-list-item">
+          <a id="global_nav_history_link" role="button" href="https://canvas.uw.edu/courses/1702099/pages/lesson-04a-codealong?module_item_id=19805858#" class="ic-app-header__menu-list-link">
+            <div class="menu-item-icon-container" aria-hidden="true">
+              <svg viewBox="0 0 1920 1920" class="ic-icon-svg menu-item__icon svg-icon-history" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M960 112.941c-467.125 0-847.059 379.934-847.059 847.059 0 467.125 379.934 847.059 847.059 847.059 467.125 0 847.059-379.934 847.059-847.059 0-467.125-379.934-847.059-847.059-847.059M960 1920C430.645 1920 0 1489.355 0 960S430.645 0 960 0s960 430.645 960 960-430.645 960-960 960m417.905-575.955L903.552 988.28V395.34h112.941v536.47l429.177 321.77-67.765 90.465z" stroke="none" stroke-width="1" fill-rule="evenodd"></path>
+</svg>
+            </div>
+            <div class="menu-item__text">
+              History
+            </div>
+          </a>
+        </li>
+        
+
+      <li class="ic-app-header__menu-list-item">
+        <a id="global_nav_help_link" role="button" class="ic-app-header__menu-list-link" data-track-category="help system" data-track-label="help button" href="https://help.instructure.com/">
+          <div class="menu-item-icon-container" role="presentation">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg menu-item__icon svg-icon-help" version="1.1" x="0" y="0" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve" fill="currentColor"><path d="M100,127.88A11.15,11.15,0,1,0,111.16,139,11.16,11.16,0,0,0,100,127.88Zm8.82-88.08a33.19,33.19,0,0,1,23.5,23.5,33.54,33.54,0,0,1-24,41.23,3.4,3.4,0,0,0-2.74,3.15v9.06H94.42v-9.06a14.57,14.57,0,0,1,11.13-14,22.43,22.43,0,0,0,13.66-10.27,22.73,22.73,0,0,0,2.31-17.37A21.92,21.92,0,0,0,106,50.59a22.67,22.67,0,0,0-19.68,3.88,22.18,22.18,0,0,0-8.65,17.64H66.54a33.25,33.25,0,0,1,13-26.47A33.72,33.72,0,0,1,108.82,39.8ZM100,5.2A94.8,94.8,0,1,0,194.8,100,94.91,94.91,0,0,0,100,5.2m0,178.45A83.65,83.65,0,1,1,183.65,100,83.73,83.73,0,0,1,100,183.65" transform="translate(-5.2 -5.2)"></path></svg>
+
+            <span class="menu-item__badge"></span>
+          </div>
+          <div class="menu-item__text">
+            Help
+          </div>
+</a>      </li>
+    </ul>
+  </div>
+  <div class="ic-app-header__secondary-navigation">
+    <ul class="ic-app-header__menu-list">
+      <li class="menu-item ic-app-header__menu-list-item">
+        <a id="primaryNavToggle" role="button" href="https://canvas.uw.edu/courses/1702099/pages/lesson-04a-codealong?module_item_id=19805858#" class="ic-app-header__menu-list-link ic-app-header__menu-list-link--nav-toggle" aria-label="Minimize global navigation" title="Minimize global navigation">
+          <div class="menu-item-icon-container" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--navtoggle" version="1.1" x="0" y="0" width="40" height="32" viewBox="0 0 40 32" xml:space="preserve">
+  <path d="M39.5,30.28V2.48H37.18v27.8Zm-4.93-13.9L22.17,4,20.53,5.61l9.61,9.61H.5v2.31H30.14l-9.61,9.61,1.64,1.64Z"></path>
+</svg>
+
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div id="global_nav_tray_container"></div>
+  <div id="global_nav_tour"></div>
+</header>
+
+
+  <div id="instructure_ajax_error_box">
+    <div style="text-align: right; background-color: #fff;"><a href="https://canvas.uw.edu/courses/1702099/pages/lesson-04a-codealong?module_item_id=19805858#" class="close_instructure_ajax_error_box_link">Close</a></div>
+    <iframe id="instructure_ajax_error_result" src="./Lesson 04a Codealong_ HTML 110 GP Wi 24_ HTML And CSS Foundations_files/saved_resource.html" style="border: 0;" title="Error"></iframe>
+  </div>
+
+  <div id="wrapper" class="ic-Layout-wrapper">
+        <div class="ic-app-nav-toggle-and-crumbs no-print">
+            <button type="button" id="courseMenuToggle" class="Button Button--link ic-app-course-nav-toggle" aria-live="polite" aria-label="Hide Courses Navigation Menu">
+              <i class="icon-hamburger" aria-hidden="true"></i>
+            </button>
+
+          <div class="ic-app-crumbs">
+              <nav id="breadcrumbs" role="navigation" aria-label="breadcrumbs"><ul><li class="home"><a href="https://canvas.uw.edu/"><span class="ellipsible ellipsis" style=""><i class="icon-home" title="My Dashboard">
+  <span class="screenreader-only">My Dashboard</span>
+</i>
+</span></a></li><li><a href="https://canvas.uw.edu/courses/1702099"><span class="ellipsible ellipsis" style="">HTML 110 GP</span></a></li><li><a href="https://canvas.uw.edu/courses/1702099/pages"><span class="ellipsible ellipsis" style="">Pages</span></a></li><li><span class="ellipsible ellipsis" style="">Lesson 04a Codealong</span></li></ul></nav>
+          </div>
+
+
+          <div class="right-of-crumbs">
+          </div>
+
+        </div>
+    <div id="main" class="ic-Layout-columns">
+        <div class="ic-Layout-watermark"></div>
+        <div id="left-side" class="ic-app-course-menu ic-sticky-on list-view" style="display: block">
+          <div id="sticky-container" class="ic-sticky-frame">
+              <span id="section-tabs-header-subtitle" class="ellipsis">Winter 2024</span>
+            <nav role="navigation" aria-label="Courses Navigation Menu"><ul id="section-tabs"><li class="section"><a href="https://canvas.uw.edu/courses/1702099" class="home" tabindex="0">Home</a></li><li class="section"><a href="https://canvas.uw.edu/courses/1702099/announcements" class="announcements" tabindex="0">Announcements</a></li><li class="section"><a href="https://canvas.uw.edu/courses/1702099/assignments/syllabus" class="syllabus" tabindex="0">Syllabus</a></li><li class="section"><a href="https://canvas.uw.edu/courses/1702099/modules" class="modules" tabindex="0">Modules</a></li><li class="section"><a href="https://canvas.uw.edu/courses/1702099/external_tools/152291?display=borderless" class="context_external_tool_152291" target="_blank" tabindex="0">Ed Discussion</a></li><li class="section"><a href="https://canvas.uw.edu/courses/1702099/assignments" class="assignments" tabindex="0">Assignments</a></li><li class="section"><a href="https://canvas.uw.edu/courses/1702099/quizzes" class="quizzes" tabindex="0">Quizzes</a></li><li class="section"><a href="https://canvas.uw.edu/courses/1702099/grades" class="grades" tabindex="0">Grades<b class="nav-badge">6</b></a></li><li class="section"><a href="https://canvas.uw.edu/courses/1702099/users" class="people" tabindex="0">People</a></li><li class="section"><a href="https://canvas.uw.edu/courses/1702099/external_tools/21130" class="context_external_tool_21130" tabindex="0">Panopto Recordings</a></li><li class="section"><a href="https://canvas.uw.edu/courses/1702099/external_tools/99923" class="context_external_tool_99923" tabindex="0">Badges</a></li><li class="section"><a href="https://canvas.uw.edu/courses/1702099/external_tools/167364" class="context_external_tool_167364" tabindex="0">Info &amp; Help</a></li><li class="section"><a href="https://canvas.uw.edu/courses/1702099/external_tools/12299" class="context_external_tool_12299" tabindex="0">UW Libraries</a></li><li class="section"><a href="https://canvas.uw.edu/courses/1702099/external_tools/95443" class="context_external_tool_95443" tabindex="0">Zoom</a></li><li class="section"><a href="https://canvas.uw.edu/courses/1702099/external_tools/105597" class="context_external_tool_105597" tabindex="0">UW Resources</a></li><li class="section"><a href="https://canvas.uw.edu/courses/1702099/external_tools/173244" class="context_external_tool_173244" tabindex="0">Poll Everywhere</a></li></ul></nav>
+          </div>
+        </div>
+      <div id="not_right_side" class="ic-app-main-content">
+        <div id="content-wrapper" class="ic-Layout-contentWrapper">
+          
+          <div id="content" class="ic-Layout-contentMain" role="main">
+            
+
+  
+
+<div id="wiki_page_show">
+
+<div class="show-content user_content clearfix enhanced">
+  
+    <h1 class="page-title">Lesson 04a Codealong<button aria-haspopup="dialog" class="ally-accessible-versions ally-add-tooltip" data-id="page:7254904" data-ally-content-id="page:7254904" data-ally-richcontent-eid="page:7254904" aria-label="Alternative formats" title="Alternative formats">
+    <span class="ally-prominent-af-download-button"></span>
+</button></h1>
+  
+  
+  
+    <h2 class="caH2">Video: CSS Box Model</h2>
+<ul>
+<li>Download and save this&nbsp;<a href="https://github.com/UWFront-End-Cert/starters/blob/master/lesson04-box-model.html" target="_blank" class="external" rel="noreferrer noopener"><span>box model starter code</span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg" style="width:1em; height:1em; vertical-align:middle; fill:currentColor">
+    <path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path>
+</svg>
+<span class="screenreader-only">Links to an external site.</span></span></a>.</li>
+<li>Review the <strong>one </strong>video below and code along with the exercises.</li>
+</ul>
+<p style="padding-left: 40px;"><iframe style="width: 853px; height: 480px;" title="HTML 110_04_01.01 Box Model" src="./Lesson 04a Codealong_ HTML 110 GP Wi 24_ HTML And CSS Foundations_files/retrieve.html" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *; autoplay *; clipboard-write *; display-capture *"></iframe></p>
+<hr>
+<h2 class="caH2">Video: CSS Positioning</h2>
+<div class="bigBox">
+<p>In this video, you can use the code you rendered at the end of lesson 3, or this&nbsp;<a href="https://gist.github.com/scalesuw/25106de752dc556fffe8ac822d17e2d6" target="_blank" class="external" rel="noreferrer noopener"><span>lesson04-2 starter html code</span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg" style="width:1em; height:1em; vertical-align:middle; fill:currentColor">
+    <path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path>
+</svg>
+<span class="screenreader-only">Links to an external site.</span></span></a> and <a href="https://gist.github.com/scalesuw/4add85c00464aa7804e22058a9a16e8c" target="_blank" class="external" rel="noreferrer noopener"><span>CSS stylesheet</span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg" style="width:1em; height:1em; vertical-align:middle; fill:currentColor">
+    <path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path>
+</svg>
+<span class="screenreader-only">Links to an external site.</span></span></a>.</p>
+</div>
+<p style="padding-left: 40px;"><iframe style="width: 853px; height: 480px;" title="HTML 110_04_02 CSS Positioning" src="./Lesson 04a Codealong_ HTML 110 GP Wi 24_ HTML And CSS Foundations_files/retrieve(1).html" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *; autoplay *; clipboard-write *; display-capture *"></iframe></p>
+<p>&nbsp;</p>
+  
+</div>
+</div>
+<div id="module_navigation_target"><div style=""><div class="module-sequence-padding"></div>
+<div class="module-sequence-footer" role="navigation" aria-label="Module Navigation">
+  <div class="module-sequence-footer-content">
+    
+      <span class="module-sequence-footer-button--previous" data-tooltip="right" data-html-tooltip-title="&lt;i class=&#39;icon-document&#39;&gt;&lt;/i&gt; Lesson 04 Overview">
+          <a href="https://canvas.uw.edu/courses/1702099/modules/items/19805857" class="Button" aria-describedby="msf0-previous-desc" aria-label="Previous Module Item">
+            <i class="icon-mini-arrow-left"></i>Previous
+            <span id="msf0-previous-desc" class="hidden" hidden="">Previous: Lesson 04 Overview</span>
+          </a>
+      </span>
+    
+
+    
+      <span class="module-sequence-footer-button--next" data-tooltip="left" data-html-tooltip-title="&lt;i class=&#39;icon-document&#39;&gt;&lt;/i&gt; Lesson 04b Font Family">
+        <a href="https://canvas.uw.edu/courses/1702099/modules/items/19805859" class="Button" aria-describedby="msf0-next-desc" aria-label="Next Module Item">
+          Next<i class="icon-mini-arrow-right"></i>
+          <span id="msf0-next-desc" class="hidden" hidden="">Next: Lesson 04b Font Family</span>
+        </a>
+      </span>
+    
+  </div>
+</div>
+</div></div>
+
+          </div>
+        </div>
+        <div id="right-side-wrapper" class="ic-app-main-content__secondary">
+          <aside id="right-side" role="complementary">
+            
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div style="display:none;"><!-- Everything inside of this should always stay hidden -->
+        <div id="page_view_id">7526c1ab-0fad-457f-b83d-96f899adde5a</div>
+    </div>
+  <div id="aria_alerts" class="hide-text affix" role="alert" aria-live="assertive"></div>
+  <div id="StudentTray__Container"></div>
+  <div id="react-router-portals"></div>
+  
+
+  <iframe src="./Lesson 04a Codealong_ HTML 110 GP Wi 24_ HTML And CSS Foundations_files/post_message_forwarding.html" name="post_message_forwarding" title="post_message_forwarding" id="post_message_forwarding" sandbox="allow-scripts allow-same-origin" style="display:none;"></iframe>
+
+
+  <script>
+    Object.assign(
+      ENV,
+      {}
+    )
+  </script>
+
+<script>
+//<![CDATA[
+(window.bundles || (window.bundles = [])).push('inst_fs_service_worker');
+//]]>
+</script>
+  <script src="./Lesson 04a Codealong_ HTML 110 GP Wi 24_ HTML And CSS Foundations_files/default.js" defer="defer"></script>
+  <script src="./Lesson 04a Codealong_ HTML 110 GP Wi 24_ HTML And CSS Foundations_files/custom.js" defer="defer"></script>
+
+</div> <!-- #application -->
+
+
+<div class="tinymce-a11y-checker-container"></div><div id="nav-tray-portal" style="position: relative; z-index: 99;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ally-helper-hidden-accessible"></div></body></html>
